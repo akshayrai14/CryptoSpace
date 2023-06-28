@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+<h2>CryptoSpace - </h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Cryptocurrency App is an advanced React-based application that empowers users with real-time cryptocurrency information. Leveraging Redux Toolkit for efficient state management and Ant Design for creating a visually appealing UI, the app offers interactive charts powered by Chart.js. Through integration with RapidAPI, data from various sources is fetched, enabling users to stay updated on cryptocurrency trends, market prices, and trading volumes. With a focus on usability and user experience, this app provides comprehensive insights, empowering users to make informed decisions in the dynamic world of cryptocurrencies.
 
-## Available Scripts
+<h3> URL to use CryptoSpace - </h3>
 
-In the project directory, you can run:
+https://fantastic-rabanadas-e45e7f.netlify.app/
 
-### `yarn start`
+<h3> Steps to use CryptoSpace - </h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h3>1. Navbar can be used to navigate to Home page , crypto page and news</h3>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](https://github.com/akshayrai14/CryptoSpace/assets/109916723/8ddd32a6-7a96-4250-8109-704bf1b6f50c)
 
-### `yarn test`
+![image](https://github.com/akshayrai14/CryptoSpace/assets/109916723/02c2c524-c46e-4e4e-bb01-daf00760be41)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h3>2. Crypto page with a search filter</h3>
 
-### `yarn build`
+![image](https://github.com/akshayrai14/CryptoSpace/assets/109916723/d44f7545-4419-4759-a5d2-ac816a11d4ce)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3>3. News page with a search filter</h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://github.com/akshayrai14/CryptoSpace/assets/109916723/28cd1519-8182-4c74-ba10-400307d81951)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h3>4. Each crypto with their details on being clicked</h3>
 
-### `yarn eject`
+![image](https://github.com/akshayrai14/CryptoSpace/assets/109916723/e89e7aa3-69cf-4dbf-9b48-d0f15b151c09)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![image](https://github.com/akshayrai14/CryptoSpace/assets/109916723/d02c37a3-dd6d-4b5c-aaa4-5174db7f121e)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<h3> Steps to start CryptoSpace - </h3>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repository: Open your terminal or command prompt and navigate to the directory where you want to clone the repository. Then run the following command to clone the repository:
 
-## Learn More
+<h4>git clone repository-url</h4>
+<br>Replace repository-url with the URL of the GitHub repository you want to clone.<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Navigate to the project directory: After cloning the repository, navigate into the project directory using the following command:
 
-### Analyzing the Bundle Size
+<h4>cd project-directory</h4>
+<br>Replace project-directory with the name of the directory that was created when you cloned the repository.<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. Install dependencies: Run the following command to install the project dependencies using Yarn:
 
-### Advanced Configuration
+<h4>yarn install</h4>
+<br>This will read the package.json file and install all the necessary dependencies for the project.<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+4. Configure Firebase: If the chat app uses Firebase for its backend, you need to configure Firebase with your own Firebase project. Refer to the project documentation or README file for instructions on how to set up Firebase and obtain the necessary configuration keys.
 
-### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. Start the development server: Once the dependencies are installed, you can start the development server and launch the chat app by running the following command:
+
+<h4>yarn start</h4>
+<br>This command will start the development server and automatically open the app in your default browser.
