@@ -3,7 +3,6 @@ import { Typography,Select,Row,Col,Avatar,Card } from 'antd'
 import moment from 'moment/moment'
 import { useGetCryptoNewsQuery } from '../services/cryptoNewsApi'
 import { useGetCryptosQuery } from '../services/cryptoapi'
-useGetCryptosQuery
 const { Text,Title} = Typography;
 const {Option}=Select;
 const demoimgurl="https://images.yourstory.com/cs/121/19c095909df611ec900713db340225f3/DS12-1655796073110.png?w=1152&fm=auto&ar=2:1&mode=crop&crop=faces"
