@@ -1,4 +1,4 @@
-import { HomeOutlined , BulbOutlined ,FundOutlined , MenuOutlined , MoneyCollectOutlined } from '@ant-design/icons'
+import { HomeOutlined , BulbOutlined ,FundOutlined , MenuOutlined } from '@ant-design/icons'
 import { Avatar, Button, Menu, Typography } from 'antd'
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
